@@ -1,0 +1,669 @@
+*{
+padding: 0;
+margin: 0;    
+}
+
+body{
+height: 3500px;    
+}
+
+.navbar{
+background-color: #1268C5;    
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+width: 100vw;
+height: 80px;
+z-index: 2;
+}
+
+.ngo-logo{
+padding-left: 150px;
+cursor: pointer;  
+}
+
+.list{
+display: flex;
+list-style: none;
+padding-right: 130px;
+column-gap: 20px;
+color: white;
+cursor: pointer;
+}
+
+.WWA{
+position: relative; 
+}
+
+.submenu{
+position: absolute;
+right: 0px;
+background-color: white;
+border: 1.3px solid black;
+border-radius: 5px;
+width: 320px;
+display: none;
+}
+
+.WWA:hover .submenu{
+display: block;
+right: 40px;  
+}
+
+.submenu-items{
+color: black;
+list-style: none;
+font-family: Arial;
+padding-top: 20px;
+font-weight: 550;
+padding-left: 30px;
+border-bottom: 0.2px solid lightgray;
+padding-bottom: 10px;    
+font-size: 15px;
+}
+
+.submenu-items:hover{
+background-color: lightgray;    
+}
+
+.PAP:hover .submenu{
+display: block;
+width: 187px;
+left: 0px;  
+}
+
+.PAP{
+position: relative;    
+}
+
+.submenu-items-pap{
+color: black;
+list-style: none;
+font-family: Arial;
+padding-top: 20px;
+font-weight: 550;
+padding-left: 10px;
+border-bottom: 0.2px solid lightgray; 
+padding-bottom: 10px;    
+font-size: 15px;
+}
+
+.submenu-items-pap:hover{
+background-color: lightgray;    
+}
+
+.PUB:hover .submenu-PUB{
+display: block;
+left: -40px;
+}
+
+.PUB{
+position: relative;    
+}
+
+.submenu-PUB{
+position: absolute;
+background-color: white;
+border: 1.3px solid black;
+border-radius: 5px;
+width: 200px;
+display: none;    
+}
+
+.submenu-PUB-net{
+position: absolute;
+background-color: white;
+border: 1.3px solid black;
+border-radius: 5px;
+width: 130px;
+display: none;    
+}
+
+.PUB:hover .submenu-PUB-net{
+display: block;
+left: -40px;
+}
+
+
+.submenu-MAN{
+position: absolute; background-color: white;
+border: 1.3px solid black;
+border-radius: 5px; 
+width: 200px;
+display: none;    
+}
+
+.MAN:hover .submenu-MAN{
+display: block;
+left: -40px;
+}
+
+.MAN{
+position: relative;    
+}
+
+.WWA:hover .submenu-mem{
+display: block;
+left: -120px;  
+}
+
+.submenu-mem{
+position: absolute;
+right: 0px;
+background-color: white;
+border: 1.3px solid black;
+border-radius: 5px;
+width: 320px;
+display: none;    
+}
+
+.background-img{
+background-image: url(../image/background.jpeg);
+height: 1000px;
+width: 100vw;
+background-size: 100%;
+position: relative;
+top: 80px;
+z-index: 1;
+background-repeat: no-repeat;
+margin-bottom: 170px;  
+}
+
+.who-we-are{
+width: 100vw;
+height: 50px;
+display: flex;
+justify-content: center;
+font-size: 40px;
+font-family: verdana;
+margin-bottom: 30px;
+}
+
+.span-one{
+border-top: 1px solid blue;
+border-bottom: 1px solid blue;
+font-weight: 700;  
+}
+    
+.first-para-div{
+display: flex;
+justify-content: center;
+}
+
+.first-para{
+font-family: arial;
+font-size: 22px;
+text-align: justify;
+width: 1150px;
+}
+
+.bg-gry{
+background-color: lightgray;
+height: 1400px;     
+}
+
+.div-float{
+margin-top: 20px;
+position: relative;
+right: 100px;    
+}
+
+.nepali-lang{
+float: right;
+width: 400px; 
+}
+
+.nepali-lang-items{
+list-style: none;
+padding-bottom: 20px;
+padding-top: 20px;
+border-bottom: 1px solid black;    
+}
+
+.nepali-lang-items:hover{
+color: #1268C5;
+cursor: pointer;     
+}
+
+.PR{
+background-color: #1268C5;
+padding: 10px 10px;   
+border-radius: 10px;
+color: white;
+cursor: pointer;
+}
+
+.list-up{
+margin-bottom: 20px; 
+}
+
+.LU:hover{
+cursor: pointer;
+background-color: #1268C5;
+color: white;
+border-radius: 10px;
+padding: 10px 10px;  
+}
+
+.only-nep-items{
+background-color: white;    
+border-radius: 20px;
+box-shadow: 0px 0px 100 1;
+padding: 0px 20px;
+position: relative;
+right: 20px;
+box-shadow: 0px 0px 20px 0px;    
+}
+
+.military{
+border: none;    
+}
+
+.nepali-lang-items-ok{
+list-style: none;
+padding-bottom: 20px;
+padding-top: 20px    
+}
+
+.nepali-lang-items-ok:hover{
+color: #1268C5;     
+}
+
+.publications{
+display: flex;
+justify-content: center;
+}
+
+.PUBG{
+font-size: 30px;
+font-family: verdana;
+border-top: 1px solid #1268C5;
+border-bottom: 1px solid #1268C5 ;
+font-weight: 800;
+padding: 10px 0px;    
+}
+
+.PUBG:hover{
+color: #1268C5;
+cursor: pointer; 
+}
+
+.vaccine-img{
+width: 900px;
+height: 300px;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+column-gap: 10px;
+margin-left: 90px;    
+}
+
+.vaccine-images{
+height: 100%;
+border-radius: 10px;    
+}
+
+.Learn-more{
+padding: 10px 10px;
+background-color: #1268C5;
+color: white;
+border: 1px solid #1268C5 ;
+font-family: verdana;
+font-size: 15px;
+margin-top: 40px;
+margin-left: 10px;
+cursor: pointer;     
+}
+
+.Learn-more:hover{
+transform: scale(1.3);
+transition: transform 750ms ease 0s;    
+}
+
+.bottom-div-one{
+width: 100vw;
+height: 600px;
+background-color: #1268C5;
+margin-top: 120px;    
+}
+
+.bottom-div-two{
+display: flex;
+width: 100vw;
+justify-content: center;    
+}
+
+.news{
+font-size: 50px;
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+color: white;
+margin-top: 20px;
+font-family: arial;
+padding: 10px 0px;
+}
+
+.news:hover{
+cursor: pointer;    
+}
+
+.three-images-bottom{
+margin-top: 40px;
+display: flex;
+justify-content: center;
+}
+
+.three-images{
+height: 250px;
+width: 300px;
+border-radius: 30px;    
+}
+
+.three-images-one{
+background-color: white;
+width: 300px;
+height: 400px;
+margin-left: 20px;
+padding: 23px 20px;
+border-radius: 20px;    
+}
+
+.pre-below-image{
+font-size: 15px;
+font-weight: bold;
+font-family: verdana;   
+}
+
+.pre-below-image-one{
+font-size: 16px;
+font-weight: bold;
+font-family: verdana;
+margin-top: 10px;      
+}
+
+.Learn-more-pre{
+padding: 10px 10px;
+background-color: #1268C5;
+color: white;
+border: 1px solid #1268C5 ;
+font-family: verdana;
+font-size: 15px;
+margin-top: 20px;
+cursor: pointer;
+border-radius: 10px;     
+}
+
+.Learn-more-pre:hover{
+transform: scale(1.3);
+transition: transform 750ms ease 0s;
+}
+
+.Learn-more-pre-pre{
+padding: 10px 10px;
+background-color: #1268C5;
+color: white;
+border: 1px solid #1268C5 ;
+font-family: verdana;
+font-size: 15px;
+margin-top: 10px;
+cursor: pointer;
+border-radius: 10px;       
+}
+
+.Learn-more-pre-pre:hover{
+transform: scale(1.3);
+transition: transform 750ms ease 0s;   
+}
+
+.pre-below-image-two{
+font-size: 16px;
+font-weight: bold;
+font-family: verdana;
+margin-top: 10px;      
+}    
+
+#NSDGSF{
+width: 100vw;
+display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+
+#NSDGSF:hover{
+cursor: pointer;
+color: #1268C5; 
+}
+
+.NSDGSF{
+font-size: 35px;
+font-family: arial;
+border-top: 1px solid #1268C5;
+border-bottom: 1px solid #1268C5;
+padding: 15px 0px;
+font-weight: 700;      
+}
+
+.NSDGSF-para-img{
+width: 1200px;
+height: 450px;
+margin: auto;
+margin-top: 40px;
+box-shadow: 0px 0px 30px 1px;
+}
+
+.para-img{
+display: flex;
+justify-content: space-between;    
+}
+
+.NSDGSF-para{
+font-size: 20px;
+font-family: "Poppins",sans-serif;
+text-align: justify;
+width: 800px;
+height: 300px;
+margin-top: 20px;
+margin-left: 15px;
+line-height: 36px;    
+}
+
+.NSDGSF-img{
+height: 300px;
+width: 300px;
+margin-top: 20px;    
+}
+
+.img-NSDGSF{
+width: 100%;    
+}
+
+.Learn-more-NSDGSF{    
+padding: 10px 20px;
+background-color: #1268C5;
+border: none;
+color: white;
+font-family: "Poppins",sans-serif;
+margin-left: 20px;
+position: relative;
+bottom: 63px;
+border-radius: 10px;
+}
+
+.Learn-more-NSDGSF:hover{
+transform: scale(1.2);    
+transition: transform 750ms ease 0s;
+cursor: pointer; 
+}
+
+#partners-list-main-div{
+background-color: rgba(211, 211, 211, 0.318);
+padding-top: 10px;
+height: 450px;
+margin-top: 30px;    
+}
+
+.partners-list{
+display: flex;
+margin-top: 30px;
+justify-content: center;
+column-gap: 20px;   
+}
+
+.partners{
+height: 70%;
+width: 70%;
+}
+
+.images-one{
+height: 150px;
+width: 200px;
+display: flex;
+border: 1px solid black;
+justify-content: center;
+background-color: white;
+align-items: center;
+}
+
+#div-end{
+background-color: #1268C5;
+width: 100vw;
+height: 500px;
+position: relative;
+padding-top: 40px;
+padding-left: 80px;
+padding-right: 30px;
+color: white;
+display: flex;
+}
+
+.absolute-div{
+width: 100%;
+background-color: #0051a9;
+position: absolute;
+bottom: 0;
+left: 0;
+padding: 20px 150px;     
+}
+
+.logo-para-socials{
+width: 550px;
+height: 400px;
+padding-top: 20px;    
+}
+
+.final-logo{
+width: 100%;
+margin-bottom: 20px;
+padding: 0px 20px;    
+}
+
+.final-para{
+font-family: "Poppins",sans-serif;
+font-size: 20px;
+text-align: justify;
+line-height: 30px;
+margin-top: 15px;
+width: 70%;
+}
+
+.icons{
+width: 100%;
+margin-top: 10px;
+height: 100px;    
+}
+
+.fa-brands{
+margin-right: 16px;
+color: white;
+}
+
+.fa-solid{
+margin-right: 16px;
+color: white;    
+}
+
+.UL{
+width: 302px;
+padding-top: 30px;    
+}
+
+.UL-list{
+list-style: none;
+font-family: arial;
+font-size: 20px;
+margin-bottom: 10px;     
+}
+
+.ul-para{
+font-size: 30px;
+margin-bottom: 20px;
+}
+
+.contact{
+width: 100%;
+font-size: 30px;
+font-family: arial;    
+}
+
+.final-div{
+margin-left: 60px;
+padding-top: 30px;
+width: 350px;
+}
+
+.loc-phone{
+font-family: arial;
+font-size: 30px;
+margin-top: 20px;
+margin-bottom: 10px;    
+}
+
+.phone{
+margin-top: 10px;    
+}
+
+.fa{
+margin-right: 5px;    
+}
+
+@media (min-width: 360px) and (max-width: 460px){
+
+.navbar{
+background-color: #1268C5;    
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+width: 100vw;
+height: 120px;
+z-index: 2;    
+}
+
+.list{
+display: flex;
+list-style: none;
+column-gap: 10px;
+color: white;
+cursor: pointer;
+margin-top: 70px;
+width: 100vw;
+}
+
+.ngo-logo{
+    padding-left: 20px;
+    cursor: pointer;
+    width: 20px;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    }
+
+.ngo-logoo{
+width: 280px;    
+}
+
+
+
+    
+}
